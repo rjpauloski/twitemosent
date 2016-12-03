@@ -7,6 +7,9 @@ access_secret <- "your_access_secret"
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 # setup environment to run twitter queries
 library(twitteR)
+library(dplyr)
+library(sentimentr)
+library(RTextTools)
 library(streamR)
 library(RCurl)
 library(RJSONIO)
