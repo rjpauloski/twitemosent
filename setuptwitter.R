@@ -7,6 +7,8 @@ library(RCurl)
 library(RJSONIO)
 library(stringr)
 library(e1071)
+library(tm)
+library(wordcloud)
 # setup R to be abble to access live twitter data
 consumer_key <- "your_consumer_key"
 consumer_secret <- "your_consumer_secret"
